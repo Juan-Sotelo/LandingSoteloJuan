@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+<head>
+        <title> .:: Sitio Web Personal ::.</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+	<header> 
+            <<img src="img/logoisw.png" width="70" height="100" alt="logoisw"/><center><h1><b>Sitio Web Personal</b></h2></center> 
+	</header> <hr>
+
+	<nav>
+            <ul>
+		<li><a href="index.html">Index</a></li>
+                <li><a href="aficiones.html">Aficiones</a></li>
+            </ul>
+        </nav> <hr>
+	<main>
+		<section>
+                <center><h2><b>Contactame</b></h2></center>
+		<p>A continuación se muestra un formulario para aquellos que quieran ponerse en contacto conmigo: </p>
+		<form action="mailto:juan.sotelo229391@potros.itson.edu.mx?subject=Encuesta" method="post" enctype="text/plain">
+		<center><table>
+			<tr>
+			<td>Nombre: <input type="text" placeholder="Nombre completo" required maxlength="50"></td>
+			</tr>
+			<tr>
+			<td>Correo electrónico: <input type="email" placeholder="Mail" required maxlength="50"></td>
+			</tr>
+			<tr>
+			<td>Dirección: <input type="text" placeholder="Dirección" required maxlength="100"></td>
+			</tr>
+			<tr>
+			<td>Teléfono: <input type="number" placeholder="Teléfono" required maxlength="10"></td>
+			</tr>
+			<tr>
+			<td>Sexo: <select name="Sexo" required><option value="">Selecciona el sexo</option><option>Masculino</option><option>Femenino</option></select></td>
+			</tr>
+			<tr>
+			<td>
+				<fieldset>
+				<legend>Ocupación: </legend><label><input type="radio" name="ocupacion" value="Estudiante">Estudiante</label><label><input type="radio" name="ocupacion" value="Trabajador">Trabajador</label><label><input type="radio" name="ocupacion" value="Otro">Otro</label>
+				</fieldset>
+			</td>
+			</tr>
+			<tr>
+			<td>
+				<fieldset>
+				<legend>Género música que te gusta: </legend><label><input type="checkbox" name="musica" value="Rock">Rock</label><label><input type="checkbox" name="musica" value="Pop">Pop</label><label><input type="checkbox" name="musica" value="Electronica">Electronica</label><label><input type="checkbox" name="musica" value="Reggaeton">Reggaeton</label><label><input type="checkbox" name="musica" value="Otro">Otro</label>
+				</fieldset>
+			</td>
+			</tr>
+			<tr>
+			<td>Aficiones: <textarea name="aficiones" placeholder="Comparte tus aficiones" required></textarea></td>
+			</tr>
+			<tr>
+			<td>Fecha nacimiento: <input type="date" required></td>
+			</tr>
+			<tr>
+			<td><center><input type="submit" style="background-color:white; color:black" value="   Enviar   "/><input type="reset" style="background-color:white; color:black" value="   Limpiar   "/></center></td>
+			</tr>
+		</table></center>
+		</form>
+		</section>
+	</main> <br><br> <hr>
+	<footer>
+		<center>&COPY; Todos los derechos a: Juan Pablo Sotelo Verdugo.
+		<a href="mailto:juan.sotelo229391@potros.itson.edu.mx">Correo electrónico</a></center>
+	</footer>
+</body>
+</html>
