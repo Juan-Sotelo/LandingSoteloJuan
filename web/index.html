@@ -5,39 +5,50 @@ Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit thi
 -->
 <html>
 <head>
-        <title> .:: Sitio Web Personal ::.</title>
+	<title>.:: Sitio Web ::.</title>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
+    <meta name="viewport" content ="width=device-width, initial-scale=1.0">
+    <link href="css/estilo.css" rel="stylesheet" type="text/css"/>
 <body>
-	<header> 
-        <img src="img/logoisw.png" alt="logoisw" height="100" width="70"/> <center><h1><b>Sitio Web Personal</b></h2></center> 
-	</header> <hr>
-
-	<nav>
-            <ul>
-                <li><a href="aficiones.html">Aficiones</a></li>
-                <li><a href="contactame.html">Contactame</a></li>
-            </ul>
-        </nav> <hr>
-	<main>
-		<section>
-                <center><h2><b>Bienvenidos a mi sitio web personal!!</b></h2></center>
-                <center><p><img src="img/FOTO.jpg" width="100" height="150"/></p></center>
-		<p>Sean todos bienvenidos a mi sitio web personal, donde encontrarás información relevante a mi persona, a continuación un poco de mis datos personales.</p>
-		<ul>
-			<li type="circle"> <b>Nombre: </b>Juan Pablo Sotelo Verdugo. </li>
-			<li type="circle"> <b>Dirección: </b>Calle Revolución, Campo 5, Ejido Cuauhtémoc. </li>
-			<li type="circle"> <b>Teléfono: </b>6444551629. </li>
-			<li type="circle"> <b>Email: </b>juan.sotelo229391@potros.itson.edu.mx </li>
-			<li type="circle"> <b>Carrera: </b>Ingeniería en Software. </li>
-			<li type="circle"> <b>Semestre: </b>5to semestre. </li>
-		</ul>
-		</section>
-	</main> <br><br> <hr>
-	<footer>
-		<center>&COPY; Todos los derechos a: Juan Pablo Sotelo Verdugo.
-		<a href="mailto:juan.sotelo229391@potros.itson.edu.mx">Correo electrónico</a></center>
-	</footer>
+	<div id="main">
+		<div id="header">
+			<header>
+			<img src="img/logoItson.png" id="logo" alt="Itson">
+			<a href="mailto:juan.sotelo229391@potros.itson.edu.mx"><img src="img/logoEmail.png" id="logoEmail" align="Email"></a>
+			<div id="texto">
+				<br><i><strong>Mi Sitio Web</strong></i>
+			</div>
+			<header>
+		</div>
+		<div id="indexLeftColumn">
+			<div>Barra de navegación <br>
+			<nav> 
+            	<ul>
+                	<li><a href="aficiones.html">Aficiones</a></li>
+                	<li><a href="contactame.html">Contacto</a></li>
+            	</ul>
+        	</nav></div>
+		</div>
+		<div id="indexRightColumn">
+			<main>
+				<section>
+                                <center><h2><b>Bienvenidos a mi sitio web personal!!</b></h2>
+                                    <p><img src="img/FOTO.jpg" width="150" height="100" /></p></center>
+				<p>Sean todos bienvenidos a mi sitio web personal, donde encontrarás información relevante a mi persona, a continuación un poco de mis datos personales.</p>
+				<ul>
+					<li type="circle"> <b>Nombre: </b>Juan Pablo Sotelo Verdugo. </li>
+					<li type="circle"> <b>Dirección: </b>Calle Revolución, Campo 5, Ejido Cuauhtémoc. </li>
+					<li type="circle"> <b>Teléfono: </b>6444551629. </li>
+					<li type="circle"> <b>Email: </b>juan.sotelo229391@potros.itson.edu.mx </li>
+					<li type="circle"> <b>Carrera: </b>Ingeniería en Software. </li>
+					<li type="circle"> <b>Semestre: </b>5to semestre. </li>
+				</ul>
+				</section>
+			</main>
+		</div>
+		<div id="footer">
+			<footer><br><center>&COPY; Todos los derechos a: Juan Pablo Sotelo Verdugo. | Contacto: juan.sotelo229391@potros.itson.edu.mx</center></footer>
+		</div>
+	</div>
 </body>
 </html>
